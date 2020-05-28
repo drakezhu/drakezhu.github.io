@@ -64,3 +64,20 @@
 .imageDisplay{
 	border: px;
 }
+#resume {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 130px;
+/*	text-align: center;*/
+	left: 0px;
+	font-size: 1.3em;
+	background-color: #DCDCDC;
+}
+#resumeText {
+	margin-left: 300px;
+}
+.subtitle {
+	font-size: 0.8em;
+	
+}
