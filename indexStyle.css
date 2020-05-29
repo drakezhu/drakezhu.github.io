@@ -1,3 +1,9 @@
+html {
+	overflow: scroll;
+}
+body {
+	overflow: scroll;
+}
 #header {
 	width: 100%;
 	height: 130px;
@@ -55,14 +61,17 @@
 	position: fixed;
 	margin-right: 100px;
 	left: 45%;
-	
-	
 }
 .textFormat {
 	text-indent: 30px;
 }
 .imageDisplay{
-	border: px;
+	margin-left: 30px;
+}
+.favouriteImage {
+	width: 280px;
+	height: 210px;
+	margin-left: 20px;
 }
 #resume {
 	width: 100%;
@@ -71,13 +80,47 @@
 	top: 130px;
 /*	text-align: center;*/
 	left: 0px;
-	font-size: 1.3em;
 	background-color: #DCDCDC;
+	overflow: scroll;
 }
 #resumeText {
-	margin-left: 300px;
+/*	position: fixed;*/
+	margin-left: 400px;
+	margin-right: 400px;	
+/*	overflow: scroll;*/
+	height: 150%;
 }
 .subtitle {
-	font-size: 0.8em;
-	
+	font-size: 1.3em;
+	font-style: italic;
+}
+#leftPhoto {
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.collegeModule {
+	width: 100%;
+	height: 5.5%;
+}
+.college {
+/*	position: fixed;*/
+	font-weight: bold;
+	font-size: 1.0em;
+	width: 33%;
+	left: 0;
+}
+.location {
+	position: absolute;
+	width: 50%;
+	font-size: 1.0em;
+	font-style: italic;
+}
+.date {
+	position: absolute;
+	left: 60%;
+	width: 50%;
+	font-size: 1.0em;
+	font-style: italic;
 }
