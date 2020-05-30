@@ -16,6 +16,16 @@ body {
 	background-image: linear-gradient(blue, #DCDCDC);
 
 }
+#topTitle {
+	margin-top: 5px;
+	font-size: 2em;
+	text-decoration: none;
+	color: inherit;
+	width: 100%;
+	font-weight: bold;
+	font-family: "Helvetica";
+	text-shadow: 2px 2px #49F3D1;
+}
 #left {
 	width: 40%;
 	height: 100%;
