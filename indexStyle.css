@@ -102,13 +102,13 @@ body {
 }
 .collegeModule {
 	width: 100%;
-	height: 5.5%;
+	height: 6%;
 }
 .college {
 /*	position: fixed;*/
 	font-weight: bold;
 	font-size: 1.0em;
-	width: 33%;
+/*	width: 33%;*/
 	left: 0;
 }
 .location {
