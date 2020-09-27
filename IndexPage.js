@@ -36,26 +36,13 @@ setInterval(countdown, 1000);
 
 
 // LABEL BUTTON FUNCTION
-//const labelButton = document.getElementsByClassName("label-text");
-//
-//function labelMouseOver(id) {
-//	console.log(document.getElementById(id).style);
-//	console.log("over")
-//	console.log(document.getElementById(id).style.backgroundColor);
-////	console.log(document.getElementById(id).style.backgroundColor);
-////	document.getElementById(id).style.backgroundColor = 'RoyalBlue';
-//	console.log(document.getElementById(id).style.backgroundColor);
-//}
-//
-//function labelMouseOut(id) {
-//	console.log("out")
-//	console.log(document.getElementById(id).style.backgroundColor);
-//	document.getElementById(id).style.backgroundColor = 'DodgerBlue';
-//	console.log(document.getElementById(id).style.backgroundColor);
-//}
-//
-//
-//for (var i = 0; i < labelButton.length; i++){
-//	labelButton[i].addEventListener("mouseover", labelMouseOver(labelButton[i].id));
-//	labelButton[i].addEventListener("mouseout", labelMouseOut(labelButton[i].id))
-//}
+const labelButton = document.getElementsByClassName("label-text");
+
+function labelClick() {
+	alert("In progress");
+//	window.location = "http://www.google.com";
+}
+
+for (var i = 0; i < labelButton.length; i++){
+	document.getElementById(labelButton[i].id).addEventListener("click", labelClick);
+}
