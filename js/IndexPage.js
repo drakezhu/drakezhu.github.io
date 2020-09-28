@@ -39,8 +39,9 @@ setInterval(countdown, 1000);
 const labelButton = document.getElementsByClassName("label-text");
 
 function labelClick() {
-	alert("In progress");
-	window.location = "http://www.google.com";
+//	alert("In progress");
+	console.log(this.id);
+	window.location = "https://drakezhu.github.io/"+this.id+".html";
 }
 
 for (var i = 0; i < labelButton.length; i++){
