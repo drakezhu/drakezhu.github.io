@@ -40,7 +40,7 @@ const labelButton = document.getElementsByClassName("label-text");
 
 function labelClick() {
 	alert("In progress");
-//	window.location = "http://www.google.com";
+	window.location = "http://www.google.com";
 }
 
 for (var i = 0; i < labelButton.length; i++){
