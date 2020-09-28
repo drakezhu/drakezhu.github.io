@@ -1,0 +1,63 @@
+
+.header {
+	height: 20%;
+	width: 100%;
+	text-align: center;
+}
+
+.title {
+	font-size: 2.2em;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+.label-container {
+	display: flex;
+	justify-content: center;
+/*	flex-wrap: wrap;*/
+}
+.label {
+	margin: 1rem 2rem;
+}
+.label-text {
+	text-align: center;
+	margin: 0 2;
+	font-size: 1.7em;
+	padding: 20px;
+	background-color: Dodgerblue;
+	font-weight: bold;
+	
+}
+.label-text:hover {
+	background-color: RoyalBlue;
+}
+
+.countdown-container {
+	top:13%;
+	left:80%;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+/*	overflow: scroll;*/
+}
+
+.big-text {
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1;
+	margin: 1rem 2rem;
+}
+.countdown-title{
+	top:5%;
+	left:85%;
+	position: absolute;
+}
+.countdown-el {
+	text-align: center;
+}
+
+.countdown-el span {
+	font-size: 1rem;
+}
+
