@@ -7,6 +7,30 @@ body {
 	background-size: cover;
 	background-position: center center;
 	font-family: "Poppins", sans-serif;
-	display: flex;
 	margin: 0;
+}
+
+.main-body {
+/*	display: flex;*/
+	justify-content: center;
+}
+
+.proj001 {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	display: flex;
+	margin-left: 8rem;
+	margin-right: 8rem;
+	
+}
+
+.left-body {
+	text-align: center;
+	width: 50%;
+	margin-left: 5rem;
+}
+.right-body {
+	text-align: center;
+	justify-content: center;
+	width: 50%;
 }
