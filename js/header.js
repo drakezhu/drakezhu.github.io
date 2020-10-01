@@ -39,11 +39,15 @@ setInterval(countdown, 1000);
 const labelButton = document.getElementsByClassName("label-text");
 
 function labelClick() {
-//	alert("In progress");
-	console.log(this.id);
 	window.location = "https://drakezhu.github.io/"+this.id+".html";
 }
 
 for (var i = 0; i < labelButton.length; i++){
 	document.getElementById(labelButton[i].id).addEventListener("click", labelClick);
 }
+
+// LABEL BUTTON END
+
+// MUSIC PLAYER START
+var vid = document.getElementById("myMusic");
+vid.volume = 0.2;
